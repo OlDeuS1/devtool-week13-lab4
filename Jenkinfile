@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-        //test
+        //test1
         stage('Run Docker on Remote Server') {
             steps {
                 sshagent([SSH_CREDENTIALS]) {
